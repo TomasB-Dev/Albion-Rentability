@@ -1,6 +1,8 @@
 # Calculadora de Elaboración en Albion
 
 Esta es una aplicación web simple que utiliza la API de Albion Online para consultar y mostrar los precios de los ítems de elaboración en diferentes ciudades.
+>[!WARNING]
+>La aplicacion web se encuentra en desarollo puede ser que algunas funciones no funcionen correctamente o presenten errores.
 
 ## Características
 
