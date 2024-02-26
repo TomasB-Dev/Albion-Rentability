@@ -1,37 +1,48 @@
-# Calculadora de Elaboración en Albion
+# Selector de Equipamiento
 
-Esta es una aplicación web simple que utiliza la API de Albion Online para consultar y mostrar los precios de los ítems de elaboración en diferentes ciudades.
->[!WARNING]
->La aplicacion web se encuentra en desarollo puede ser que algunas funciones no funcionen correctamente o presenten errores.
+Este componente ofrece una interfaz de usuario para seleccionar categorías de equipamiento y visualizar opciones específicas.
 
-## Características
+## Uso
 
-- Selección de ítem, calidad y encantamiento.
-- Muestra los precios mínimos y máximos de venta y compra en diferentes ciudades.
-- Interfaz de usuario amigable.
+1. **Clonar Repositorio:**
+    ```bash
+    git clone https://github.com/tu-usuario/tu-repositorio.git
+    ```
 
-## Cómo utilizar
+2. **Integración en tu Proyecto:**
 
-1. Clona este repositorio a tu máquina local:
+    - Copia el código HTML proporcionado en tu archivo.
 
-   ```bash
-   git clone https://github.com/tu-usuario/albion-crafting-calculator.git
-Abre el archivo index.html en tu navegador web.
+    - Personaliza las opciones de equipamiento según tus necesidades.
 
-Selecciona el ítem, calidad y encantamiento deseados.
+    - Asegúrate de que el script JavaScript se carga en tu página.
 
-Haz clic en el botón "Consultar Precios".
+3. **Estructura del Código:**
 
-Los resultados se mostrarán debajo con los precios para cada ciudad.
+    - `index.html`: Contiene la estructura HTML con las opciones de equipamiento.
 
-Tecnologías utilizadas
-HTML
-CSS
-JavaScript
-Créditos
-Esta aplicación utiliza la API de Albion Online para obtener información de precios.
+    - `styles.css`: Archivo de estilo para personalizar la apariencia.
 
-Contribuciones
-¡Las contribuciones son bienvenidas! Si encuentras un problema o tienes alguna mejora, no dudes en abrir un problema o enviar una solicitud de extracción.
+    - `script.js`: Lógica JavaScript para manejar la interactividad.
 
-Licencia
+4. **Personalización:**
+
+    - Añade o elimina opciones según tus requisitos.
+
+    - Modifica el estilo CSS para integrarlo con el diseño de tu aplicación.
+
+5. **Notas Importantes:**
+
+    - Asegúrate de mantener la consistencia en las clases y IDs para un funcionamiento adecuado.
+
+    - Se recomienda seguir las mejores prácticas de accesibilidad para garantizar una experiencia inclusiva.
+
+    - Revisa y ajusta las etiquetas de seguridad para proteger contra posibles vulnerabilidades.
+
+6. **Contribuciones:**
+
+    - ¡Contribuciones son bienvenidas! Reporta problemas o envía solicitudes de extracción.
+
+7. **Licencia:**
+
+    - Este proyecto está bajo la Licencia MIT - consulta [LICENSE.md](LICENSE.md) para más detalles.
