@@ -1,6 +1,6 @@
-# Selector de Equipamiento
+# Albion Rentability
 
-Este componente ofrece una interfaz de usuario para seleccionar categorías de equipamiento y visualizar opciones específicas.
+Este componente ofrece una interfaz de usuario para seleccionar categorías de equipamiento y visualizar opciones específicas tales como precios y calidades en las distintas ciudades.
 
 ## Uso
 
