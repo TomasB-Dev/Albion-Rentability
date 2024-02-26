@@ -24,12 +24,13 @@ Este componente ofrece una interfaz de usuario para seleccionar categorías de e
     - `styles.css`: Archivo de estilo para personalizar la apariencia.
 
     - `script.js`: Lógica JavaScript para manejar la interactividad.
-
-4. **Personalización:**
+>[!TIP]
+>4. **Personalización:**
 
     - Añade o elimina opciones según tus requisitos.
 
     - Modifica el estilo CSS para integrarlo con el diseño de tu aplicación.
+
 
 5. **Notas Importantes:**
 
