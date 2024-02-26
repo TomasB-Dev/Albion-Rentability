@@ -29,13 +29,12 @@ Este componente ofrece una interfaz de usuario para seleccionar categorías de e
 >- Añade o elimina opciones según tus requisitos.
 >- Modifica el estilo CSS para integrarlo con el diseño de tu aplicación.
 
-5. **Notas Importantes:**
+>[!WARNING]
+>5. **Notas Importantes:**
+> - Asegúrate de mantener la consistencia en las clases y IDs para un funcionamiento adecuado.
+> - Se recomienda seguir las mejores prácticas de accesibilidad para garantizar una experiencia inclusiva.
+> - Revisa y ajusta las etiquetas de seguridad para proteger contra posibles vulnerabilidades.
 
-    - Asegúrate de mantener la consistencia en las clases y IDs para un funcionamiento adecuado.
-
-    - Se recomienda seguir las mejores prácticas de accesibilidad para garantizar una experiencia inclusiva.
-
-    - Revisa y ajusta las etiquetas de seguridad para proteger contra posibles vulnerabilidades.
 
 6. **Contribuciones:**
 
