@@ -26,11 +26,8 @@ Este componente ofrece una interfaz de usuario para seleccionar categorías de e
     - `script.js`: Lógica JavaScript para manejar la interactividad.
 >[!TIP]
 >4. **Personalización:**
-
-    - Añade o elimina opciones según tus requisitos.
-
-    - Modifica el estilo CSS para integrarlo con el diseño de tu aplicación.
-
+>- Añade o elimina opciones según tus requisitos.
+>- Modifica el estilo CSS para integrarlo con el diseño de tu aplicación.
 
 5. **Notas Importantes:**
 
