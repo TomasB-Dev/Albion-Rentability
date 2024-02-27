@@ -1,4 +1,4 @@
 <?php
     include("ropa.php");
-    include("armas.php");
+    include("offhands.php");
 ?>
