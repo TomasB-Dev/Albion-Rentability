@@ -6,7 +6,7 @@ Este componente ofrece una interfaz de usuario para seleccionar categorías de e
 
 1. **Clonar Repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/TomasB-Dev/Albion-Rentability.git
     ```
 
 2. **Integración en tu Proyecto:**
