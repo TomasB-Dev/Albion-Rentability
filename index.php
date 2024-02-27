@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">   
     <title>Calculadora de Precios en Albion</title>
 </head>
 <body>
     <h1>Calculadora de Precios en Albion</h1>
+    <button id="modoOscuroBtn" onclick="toggleModoOscuro">
+    <svg id="iconoModoOscuro" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-15.47c-3.44 0-6.25 2.81-6.25 6.25s2.81 6.25 6.25 6.25 6.25-2.81 6.25-6.25-2.81-6.25-6.25-6.25z"/>
+    </svg>
+</button>
 
     <form id="albionForm">
         <label for="itemSelect">Selecciona un ítem:</label>
@@ -61,7 +66,13 @@
 
             // Ajuste para incluir el encantamiento en la URL de solicitud
             var api_url = 'https://west.albion-online-data.com/api/v2/stats/prices/';
-            var url_solicitud = `${api_url}${tier}${itemSeleccionado}@${encantamientoSeleccionado}.json?qualities=${calidadSeleccionada}`;
+            if (encantamientoSeleccionado == 0){
+                var url_solicitud = `${api_url}${tier}${itemSeleccionado}.json?qualities=${calidadSeleccionada}`;
+                
+            }
+            else{
+                var url_solicitud = `${api_url}${tier}${itemSeleccionado}@${encantamientoSeleccionado}.json?qualities=${calidadSeleccionada}`;
+            }
 
             /* This code snippet is making an asynchronous HTTP request using the `fetch` API to the
             URL specified in `url_solicitud`. Here's a breakdown of what each part does: */
@@ -119,5 +130,6 @@
             });
         }
     </script>
+    <script src="modoOscuro.js"></script>
 </body>
 </html>

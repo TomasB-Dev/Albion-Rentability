@@ -77,3 +77,20 @@ button:hover {
     margin: 0;
     padding: 5px 0;
 }
+#modoOscuroBtn{
+    width: 10px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+body.modo-oscuro {
+    background-color: #1a1a1a;
+    color: #111111;
+}
+#modoOscuroBtn svg {
+     /* Color del icono en modo claro */
+    fill: #000;
+}
+
+#modoOscuroBtn.modo-oscuro svg {
+    fill: #fff; /* Color del icono en modo oscuro */
+}
