@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">   
     <title>Calculadora de Precios en Albion</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 <body>
     <h1>Calculadora de Precios en Albion</h1>
-    <button id="modoOscuroBtn" onclick="toggleModoOscuro">
+    <button id="modoOscuroBtn" onclick="toggleModoOscuro()">
     <svg id="iconoModoOscuro" width="24" height="24" viewBox="0 0 24 24">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-15.47c-3.44 0-6.25 2.81-6.25 6.25s2.81 6.25 6.25 6.25 6.25-2.81 6.25-6.25-2.81-6.25-6.25-6.25z"/>
     </svg>
@@ -78,8 +79,12 @@
             URL specified in `url_solicitud`. Here's a breakdown of what each part does: */
             fetch(url_solicitud)
                 .then(response => response.json())
-                .then(data => mostrarResultados(data, calidadSeleccionada))
+                .then(data => {
+                    mostrarResultados(data, calidadSeleccionada);
+                    dibujarGrafico(data);
+                })
                 .catch(error => console.error('Error al realizar la solicitud API:', error));
+            
         }
 
         /**
@@ -129,6 +134,38 @@
                 resultadosDiv.appendChild(mercadoDiv);
             });
         }
+        function dibujarGrafico(data) {
+    var chartData = [['Ciudad', 'Precio Mínimo de Venta', 'Precio Máximo de Venta']];
+
+    data.forEach(function(mercado) {
+        var row = [mercado.city, mercado.sell_price_min, mercado.sell_price_max];
+        chartData.push(row);
+    });
+
+    if (chartData.length > 1) {
+        google.charts.load('current', {'packages':['corechart']});
+
+        google.charts.setOnLoadCallback(function() {
+            var chartDiv = document.createElement('div');
+            chartDiv.id = 'chart_div';
+            document.getElementById('resultados').appendChild(chartDiv);
+
+            var chartDataObject = google.visualization.arrayToDataTable(chartData);
+
+            var options = {
+                title: 'Precios Mínimos y Máximos de Venta por Ciudad',
+                chartArea: {width: '50%'},
+                hAxis: {title: 'Ciudad', minValue: 0},
+                vAxis: {title: 'Precio (Plata)'}
+            };
+
+            var chart = new google.visualization.ColumnChart(chartDiv);
+            chart.draw(chartDataObject, options);
+        });
+    }
+}
+
+        
     </script>
     <script src="modoOscuro.js"></script>
 </body>
