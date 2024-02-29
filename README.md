@@ -53,6 +53,6 @@ El proyecto se organiza de la siguiente manera:
 
 ## Licencia
 
-Este proyecto está bajo la Licencia [inserta el tipo de licencia si es aplicable].
+Este proyecto está bajo la Licencia [LICENSE.md](LICENSE.md).
 
 ---
