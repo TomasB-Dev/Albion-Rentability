@@ -48,8 +48,8 @@ El proyecto se organiza de la siguiente manera:
 
 ## Colaboradores
 
-- [TomasB/TomasB-Dev]
-- [IgnacioJulian]
+- **Backend**: [TomasB/TomasB-Dev]
+- **Frontend**: [IgnacioJulian]
 
 ## Licencia
 
