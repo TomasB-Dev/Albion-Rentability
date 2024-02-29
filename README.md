@@ -1,4 +1,4 @@
-# README - Calculadora de Precios en Albion
+# Calculadora de Precios en Albion
 
 ## Descripción del Proyecto
 
