@@ -1,45 +1,58 @@
-# Albion Rentability
+# README - Calculadora de Precios en Albion
 
-Este componente ofrece una interfaz de usuario para seleccionar categorías de equipamiento y visualizar opciones específicas tales como precios y calidades en las distintas ciudades.
+## Descripción del Proyecto
 
-## Uso
+La "Calculadora de Precios en Albion" es una aplicación web diseñada para ayudar a los jugadores de Albion Online a obtener información sobre los precios de diversos elementos del juego en diferentes ciudades. La aplicación permite a los usuarios seleccionar un ítem, especificar su calidad, tier y encantamiento, y luego consulta la API de Albion Online para obtener datos sobre los precios de compra y venta en varias ciudades.
 
-1. **Clonar Repositorio:**
-    ```bash
-    git clone https://github.com/TomasB-Dev/Albion-Rentability.git
-    ```
+## Estructura del Proyecto
 
-2. **Integración en tu Proyecto:**
+El proyecto se organiza de la siguiente manera:
 
-    - Copia el código HTML proporcionado en tu archivo.
+- **index.php**: Archivo principal que contiene la estructura HTML de la aplicación, los elementos de interfaz de usuario y la inclusión de archivos JS y PHP necesarios.
 
-    - Personaliza las opciones de equipamiento según tus necesidades.
+- **data/opciones.php**: Archivo PHP que incluye datos de diferentes categorías, como ropa, offhands, consumibles, capas y artefactos.
 
-    - Asegúrate de que el script JavaScript se carga en tu página.
+- **assets/js/Main.js**: Archivo JavaScript que maneja la lógica principal de la aplicación, incluyendo la solicitud de datos a la API de Albion Online y la presentación de resultados.
 
-3. **Estructura del Código:**
+- **assets/js/Hora_UTC.js**: Archivo JavaScript que actualiza y muestra la hora UTC en la interfaz de usuario.
 
-    - `index.html`: Contiene la estructura HTML con las opciones de equipamiento.
+- **assets/js/modoOscuro.js**: Archivo JavaScript que implementa la funcionalidad de modo oscuro y guarda la preferencia del usuario en el almacenamiento local.
 
-    - `styles.css`: Archivo de estilo para personalizar la apariencia.
+## Uso de la Aplicación
 
-    - `script.js`: Lógica JavaScript para manejar la interactividad.
->[!TIP]
->4. **Personalización:**
->- Añade o elimina opciones según tus requisitos.
->- Modifica el estilo CSS para integrarlo con el diseño de tu aplicación.
+1. **Inicio**: Abre el archivo `index.php` en un navegador web para iniciar la aplicación.
 
->[!WARNING]
->5. **Notas Importantes:**
-> - Asegúrate de mantener la consistencia en las clases y IDs para un funcionamiento adecuado.
-> - Se recomienda seguir las mejores prácticas de accesibilidad para garantizar una experiencia inclusiva.
-> - Revisa y ajusta las etiquetas de seguridad para proteger contra posibles vulnerabilidades.
+2. **Selección de Ítem**: Utiliza el menú desplegable para seleccionar un ítem de interés.
 
+3. **Configuración Detallada**: Elige el tier, calidad y encantamiento del ítem para obtener resultados más precisos.
 
-6. **Contribuciones:**
+4. **Consulta de Precios**: Haz clic en el botón "Consultar Precios" para obtener información sobre los precios en diferentes ciudades.
 
-    - ¡Contribuciones son bienvenidas! Reporta problemas o envía solicitudes de extracción.
+5. **Resultados Visuales**: Los resultados se mostrarán en la interfaz, incluyendo el precio mínimo y máximo de venta y compra en cada ciudad.
 
-7. **Licencia:**
+6. **Modo Oscuro**: Puedes alternar el modo oscuro haciendo clic en el botón con el ícono de luna.
 
-    - Este proyecto está bajo la Licencia MIT - consulta [LICENSE.md](LICENSE.md) para más detalles.
+## Recomendaciones y Tips
+
+- **Actualización Automática**: La hora UTC se actualiza automáticamente cada segundo para mantenerte informado.
+
+- **Gráficos Visuales**: Se incluye un gráfico visual que muestra los precios mínimos y máximos de venta por ciudad.
+
+- **Persistencia del Modo Oscuro**: Tu preferencia de modo oscuro se guarda localmente para que se mantenga incluso después de cerrar y abrir la aplicación.
+
+## Avisos Importantes
+
+- **Datos en Tiempo Real**: La aplicación depende de la API de Albion Online y necesita conexión a internet para obtener datos actualizados.
+
+- **Formato de Encantamiento**: Los encantamientos se indican con un número, por ejemplo, "Encantamiento 1". Asegúrate de seleccionar el encantamiento correcto.
+
+## Colaboradores
+
+- [TomasB/TomasB-Dev]
+- [IgnacioJulian]
+
+## Licencia
+
+Este proyecto está bajo la Licencia [inserta el tipo de licencia si es aplicable].
+
+---
