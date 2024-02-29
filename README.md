@@ -42,7 +42,7 @@ El proyecto se organiza de la siguiente manera:
 
 ## Avisos Importantes
 
-- **Datos en Tiempo Real**: La aplicación depende de la API de Albion Online y necesita conexión a internet para obtener datos actualizados.
+- **Datos en Tiempo Real**: La aplicación depende de la API de [Albion Data Project](https://www.albion-online-data.com/) y necesita conexión a internet para obtener datos actualizados.
 
 - **Formato de Encantamiento**: Los encantamientos se indican con un número, por ejemplo, "Encantamiento 1". Asegúrate de seleccionar el encantamiento correcto.
 
