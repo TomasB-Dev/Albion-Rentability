@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Gris claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #1565c0; /* Azul de Albion Online */
+}
+
+#albionForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1565c0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1; /* Azul más oscuro al hacer hover */
+}
+
+#resultados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.mercado {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #1565c0;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mercado:hover {
+    transform: scale(1.05);
+}
+
+.nombre-mercado {
+    font-weight: bold;
+    color: #0d47a1; /* Azul oscuro para el nombre del mercado */
+    margin-bottom: 10px;
+}
+
+/* Agrega estilos para la información dentro de .mercado */
+.mercado p {
+    margin: 0;
+    padding: 5px 0;
+}
+#modoOscuroBtn{
+    width: 10px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+body.modo-oscuro {
+    background-color: #1a1a1a;
+    color: #111111;
+}
+#modoOscuroBtn svg {
+     /* Color del icono en modo claro */
+    fill: #000;
+}
+
+#modoOscuroBtn.modo-oscuro svg {
+    fill: #fff; /* Color del icono en modo oscuro */
+}
+.reloj-utc {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;  
+    font-weight: bold;
+    color: #3498db;  
+    margin-top: 10px;
+}

@@ -87,3 +87,17 @@
     <!-- pargo de niebla --> 
     <option value="_MEAL_ROAST_FISH">Pargo de Niebla</option>
 </optgroup>
+<optgroup label="TOMOS">
+    <!-- Tomo del Agricultor 439 -->
+    <option value="_SKILLBOOK_GATHER_FIBER">Tomo del Agricultor</option>
+    <!-- Tomo del Peletero 444 --> 
+    <option value="_SKILLBOOK_GATHER_HIDE">Tomo del Peletero</option>
+    <!-- Tomo del minero 449 --> 
+    <option value="_SKILLBOOK_GATHER_ORE">Tomo del Minero</option>
+    <!-- Tomo del de piedra 454 --> 
+    <option value="_SKILLBOOK_GATHER_ROCK">Tomo del de Piedra</option>
+    <!-- Tomo del Leñador 464 --> 
+    <option value="_SKILLBOOK_STANDARD">Tomo del Leñador</option>
+    <!-- Tomo de conocimiento --> 
+    <option value="_SKILLBOOK_STANDARD">Tomo de Conocimiento</option>
+</optgroup>
