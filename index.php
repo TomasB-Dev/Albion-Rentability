@@ -16,6 +16,7 @@
     </svg>
 </button>
 <div id="relojUTC" class="reloj-utc"></div>
+<p>Esta página ha sido visitada <span id="counter">0</span> veces.</p>
     <form id="albionForm">
         <label for="itemSelect">Selecciona un ítem:</label>
         <select id="itemSelect" name="item">
@@ -57,5 +58,6 @@
     <script src="assets/js/Hora_UTC.js"></script>
     <script src="assets/js/Main.js"></script>
     <script src="assets/js/modoOscuro.js"></script>
+    <script src="assets/js/ContadorDeVisitas.js"></script>
 </body>
 </html>
