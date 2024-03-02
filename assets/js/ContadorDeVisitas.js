@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch(contadorScript)
         .then(response => response.text())
         .then(data => {
-            document.getElementById("counter").innerText = data;
+            // Parsear el número y darle formato con puntos para separar los miles
+            let formattedCounter = parseInt(data).toLocaleString();
+            
+            // Actualizar el contenido del elemento con el contador formateado
+            document.getElementById("counter").innerText = formattedCounter;
         })
         .catch(error => console.error('Error al obtener el contador:', error));
 });

@@ -9,14 +9,18 @@
     <link rel="icon" href="assets/img/logo.ico">
 </head>
 <body>
-    <h1>Calculadora de Precios en Albion</h1>
-    <button id="modoOscuroBtn" onclick="toggleModoOscuro()">
-    <svg id="iconoModoOscuro" width="24" height="24" viewBox="0 0 24 24">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-15.47c-3.44 0-6.25 2.81-6.25 6.25s2.81 6.25 6.25 6.25 6.25-2.81 6.25-6.25-2.81-6.25-6.25-6.25z"/>
-    </svg>
-</button>
-<div id="relojUTC" class="reloj-utc"></div>
-<p>Esta página ha sido visitada <span id="counter">0</span> veces.</p>
+    <header>
+        <h1>Albion Rentability</h1>
+        
+        <div id="relojUTC" class="reloj-utc"></div>     
+        <p id="visitas">Esta página ha sido visitada <span id="counter">0</span> veces.</p>
+        <button id="modoOscuroBtn" onclick="toggleModoOscuro()">
+            <svg id="iconoModoOscuro" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                <path d="M12 11.807A9.002 9.002 0 0 1 10.049 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905 10.237 0 14.142 3.906 3.906 10.237 3.905 14.143 0a9.946 9.946 0 0 0 2.735-5.119A9.003 9.003 0 0 1 12 11.807z"></path>
+            </svg>
+        </button>
+        
+    </header>
     <form id="albionForm">
         <label for="itemSelect">Selecciona un ítem:</label>
         <select id="itemSelect" name="item">
@@ -27,6 +31,8 @@
         </select>
         <label for="tierselct">Tier:</label>
         <select id="tierselct" name="tierselct">
+            <option value="T4">T2</option>
+            <option value="T4">T3</option>
             <option value="T4">T4</option>
             <option value="T5">T5</option>
             <option value="T6">T6</option>
@@ -38,8 +44,9 @@
         <select id="calidadSelect" name="calidad">
             <option value="1">Normal</option>
             <option value="2">Bueno</option>
-            <option value="3">Sobresaliente</option>
-            <option value="4">Obra maestra</option>
+            <option value="3">Notable</option>
+            <option value="4">Sobresaliente</option>
+            <option value="5">Obra maestra</option>
         </select>
 
         <label for="encantamientoSelect">Selecciona el encantamiento:</label>

@@ -1,7 +1,5 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7; /* Gris claro */
-    color: #333;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,9 +8,53 @@ body {
     min-height: 100vh;
 }
 
-h1 {
+header {
+    background-color: transparent;
+    padding: 20px;
+    color: #007bff;
     text-align: center;
-    color: #1565c0; /* Azul de Albion Online */
+}
+
+h1 {
+    margin: 0;
+    color: #007bff;
+}
+
+#relojUTC {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #3498db;
+    margin-top: 10px;
+}
+
+#visitas {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#counter {
+    font-weight: bold;
+    color: #06d810;
+}
+
+#modoOscuroBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#modoOscuroBtn svg {
+    fill: #fff;
+}
+
+body.modo-oscuro {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+#modoOscuroBtn.modo-oscuro svg {
+    fill: #000;
 }
 
 #albionForm {
@@ -39,7 +81,7 @@ button {
 }
 
 button:hover {
-    background-color: #0d47a1; /* Azul más oscuro al hacer hover */
+    background-color: #0d47a1;
 }
 
 #resultados {
@@ -55,7 +97,7 @@ button:hover {
     padding: 20px;
     border: 2px solid #1565c0;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #3f3f3f; /* Color más oscuro para resaltar el texto */
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
     text-align: center;
@@ -68,36 +110,12 @@ button:hover {
 
 .nombre-mercado {
     font-weight: bold;
-    color: #0d47a1; /* Azul oscuro para el nombre del mercado */
+    color: #fff;
     margin-bottom: 10px;
 }
 
-/* Agrega estilos para la información dentro de .mercado */
 .mercado p {
     margin: 0;
     padding: 5px 0;
-}
-#modoOscuroBtn{
-    width: 10px;
-    background-color: transparent;
-    margin-bottom: 10px;
-}
-body.modo-oscuro {
-    background-color: #1a1a1a;
-    color: #111111;
-}
-#modoOscuroBtn svg {
-     /* Color del icono en modo claro */
-    fill: #000;
-}
-
-#modoOscuroBtn.modo-oscuro svg {
-    fill: #fff; /* Color del icono en modo oscuro */
-}
-.reloj-utc {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;  
-    font-weight: bold;
-    color: #3498db;  
-    margin-top: 10px;
+    color: #fff;
 }
