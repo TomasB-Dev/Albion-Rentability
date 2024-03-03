@@ -119,3 +119,38 @@ button:hover {
     padding: 5px 0;
     color: #fff;
 }
+/* Estilo del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo de los enlaces del footer */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo de los enlaces al pasar el ratón */
+.footer-links a:hover {
+    border-bottom: 2px solid #fff;
+}

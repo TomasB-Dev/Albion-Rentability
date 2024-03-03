@@ -21,6 +21,7 @@
         </button>
         
     </header>
+    <main>
     <form id="albionForm">
         <label for="itemSelect">Selecciona un ítem:</label>
         <select id="itemSelect" name="item">
@@ -62,6 +63,17 @@
     </form>
 
     <div id="resultados" class="resultados"></div>
+<main>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Albion Rentability. Todos los derechos reservados.</p>
+        <ul class="footer-links">
+            <li><a href="Pages/politicaprivacidad.html"target="_blank">Política de privacidad</a></li>
+            <li><a href="Pages/terminos-servicio.html"target="_blank">Términos de servicio</a></li>
+            <li><a href="https://github.com/TomasB-Dev/Albion-Rentability"target="_blank">Contacto</a></li>
+        </ul>
+    </div>
+</footer>
     <script src="assets/js/Hora_UTC.js"></script>
     <script src="assets/js/Main.js"></script>
     <script src="assets/js/modoOscuro.js"></script>
