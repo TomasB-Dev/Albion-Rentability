@@ -78,6 +78,4 @@
     <option value="_MOUNT_FROSTRAM_ADC">Carnero de Hielo</option>
     <!-- ave del terror ensillado -->
     <option value="_MOUNT_TERRORBIRD_ADC">Ave del Terror Ensillado</option>
-
-
 </optgroup>

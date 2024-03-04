@@ -63,14 +63,17 @@
     </form>
 
     <div id="resultados" class="resultados"></div>
-<main>
+</main>
+<section id="publicidad">
+        <a href="https://discord.gg/4KGScApRxH"target="_blank"><img src="assets/img/banner.webp" alt="Banner de Publicidad" width="100%" height="auto"></a>
+    </section>
 <footer>
     <div class="footer-content">
         <p>&copy; 2024 Albion Rentability. Todos los derechos reservados.</p>
         <ul class="footer-links">
             <li><a href="Pages/politicaprivacidad.html"target="_blank">Política de privacidad</a></li>
             <li><a href="Pages/terminos-servicio.html"target="_blank">Términos de servicio</a></li>
-            <li><a href="https://github.com/TomasB-Dev/Albion-Rentability"target="_blank">Contacto</a></li>
+            <li><a href="https://discord.gg/4KGScApRxH"target="_blank">Contacto</a></li>
         </ul>
     </div>
 </footer>

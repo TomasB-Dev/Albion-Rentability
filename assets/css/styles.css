@@ -125,6 +125,7 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    width: 100%;
 }
 
 .footer-content {
@@ -153,4 +154,16 @@ footer {
 /* Estilo de los enlaces al pasar el ratón */
 .footer-links a:hover {
     border-bottom: 2px solid #fff;
+}
+/* Estilos para la sección de publicidad */
+#publicidad {
+    margin-top: 20px; /* Espacio superior para separar la publicidad del contenido principal */
+    text-align: center; /* Centra la imagen dentro de la sección */
+}
+
+#publicidad img {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho de la sección */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    border: 1px solid #ccc; /* Agrega un borde alrededor de la imagen, opcional */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave, opcional */
 }
