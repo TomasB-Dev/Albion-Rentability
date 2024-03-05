@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="lenguage" content="spanish">
+    <meta name="audience" content="all">
+    <meta name="keywords" content="Albion, online, market">
+    <meta name="robots" content="index, all, follow">
+    <meta name="title" content="Albion Rentability">
+    <meta name="author" content="Albion Rentability">
+    <meta name="description" content="Visualiza un aproximado de los precios de los mercados en Albon Online!">
     <link href="assets/css/styles.css" rel="stylesheet">   
-    <title>Calculadora de Precios en Albion</title>
+    <title>Albion Rentability</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="icon" href="assets/img/logo.ico">
 </head>

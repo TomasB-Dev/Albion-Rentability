@@ -5,4 +5,5 @@
     include("artefactos.php");
     include("Montura.php");
     include("armas.php");
+    include("Recursos.php");
 ?>

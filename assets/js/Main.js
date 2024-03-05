@@ -10,12 +10,26 @@ function realizarSolicitudAPI() {
 
     // Ajuste para incluir el encantamiento en la URL de solicitud
     var api_url = 'https://west.albion-online-data.com/api/v2/stats/prices/';
-    if (encantamientoSeleccionado == 0){
+
+/* This block of code is determining the URL for the API request based on the selected item, quality,
+enchantment, and tier. Here's a breakdown of the logic: */
+    const Materiales_NoS = ["_WOOD", "_ROCK", "_ORE", "_HID","_FIBER"];
+    if (encantamientoSeleccionado == 0 && Materiales_NoS.includes(itemSeleccionado)){
+        var url_solicitud = `${api_url}${tier}${itemSeleccionado}`;
+    
+    }
+    else if(encantamientoSeleccionado != 0 && Materiales_NoS.includes(itemSeleccionado)){
+        
+        var url_solicitud = `${api_url}${tier}${itemSeleccionado}_LEVEL${encantamientoSeleccionado}@${encantamientoSeleccionado}`;     
+    }
+    else if(encantamientoSeleccionado == 0){
+        
         var url_solicitud = `${api_url}${tier}${itemSeleccionado}.json?qualities=${calidadSeleccionada}`;
         
     }
     else{
         var url_solicitud = `${api_url}${tier}${itemSeleccionado}@${encantamientoSeleccionado}.json?qualities=${calidadSeleccionada}`;
+    
     }
 
     /* This code snippet is making an asynchronous HTTP request using the `fetch` API to the
@@ -47,7 +61,7 @@ function mostrarResultados(data, calidad) {
         var mercadoDiv = document.createElement('div');
         mercadoDiv.className = 'mercado';
 
-        var nombreMercadoP = document.createElement('p');
+        var nombreMercadoP = document.createElement('h4');
         nombreMercadoP.className = 'nombre-mercado';
         nombreMercadoP.textContent = ciudad.city;
 
