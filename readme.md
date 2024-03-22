@@ -5,8 +5,8 @@
 The "Albion Price Calculator" is a web application designed to assist Albion Online players in obtaining information about the prices of various in-game items across different cities. The application allows users to select an item, specify its quality, tier, and enchantment, and then queries the Albion Online API to retrieve data on buying and selling prices in various cities.
 
 For other languages:
-- Para obtener la documentación en español, consulte [README_SPANISH.md](README_SPANISH.md).
-- Para a documentação em português, consulte [Readme_Portuguese.md](Readme_Portuguese.md).
+- Para obtener la documentación en español, consulte [README ESPAÑOL](README_SPANISH.md).
+- Para a documentação em português, consulte [README PORTUGUÊS](Readme_Portuguese.md).
 
 ## Project Structure
 
