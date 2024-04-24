@@ -52,8 +52,8 @@ The project is organized as follows:
 
 ## Contributors
 
-- **Backend**: [TomasB/TomasB-Dev]
-- **Frontend**: [TomasB/TomasB-Dev - IgnacioJulian]
+- **Backend**: [TomasB-Dev]
+- **Frontend**: [TomasB-Dev]
 
 ## License
 
