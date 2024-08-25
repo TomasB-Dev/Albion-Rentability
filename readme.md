@@ -50,13 +50,6 @@ The project is organized as follows:
 
 - **Enchantment Format**: Enchantments are indicated with a number, e.g., "Enchantment 1". Make sure to select the correct enchantment.
 
-## Contributors
 
-- **Backend**: [TomasB-Dev]
-- **Frontend**: [TomasB-Dev]
 
-## License
 
-This project is licensed under the [LICENSE.md](LICENSE.md).
-
----
